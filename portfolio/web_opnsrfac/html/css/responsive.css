@@ -1,0 +1,368 @@
+
+/* #Base 960 Grid
+================================================== */
+
+    /* Note: Design for a width of 960px */
+
+    @media only screen and (min-width: 960px) and (max-width: 1024px) {
+		
+		
+	/*body{ background-image:none;}*/
+	.block{ width:960px;}
+	.tdtbx{margin:0 60px 0 50px;}
+	#slider3 .viewport{width:960px; height:285px;}
+	#slider3 .overview li{height:auto; width:300px;}
+	
+	.ftrbx{width:224px; margin:0 20px 25px 0;}
+	.dealofdy{top:42px;}
+	.tdtbx1{clear:both; float:none; width:auto;}
+	
+	#slider4 .viewport{width:960px;}
+	#slider4 .overview li{margin:0 30px 0 30px;}
+	
+	#slider5 .viewport{width:960px;}
+	#slider5 .overview li{margin:0 50px 0 0;}
+	
+	#product ul li{margin:40px 15px;}
+	
+	.aboutblk{width:305px; margin:0 7px;}
+	
+	.testibx{width:auto;}
+	.testitxt{width:90%;}
+	
+	.prorgt{width:auto; float:none;}
+	.prolft{width:auto; float:none;}
+	
+	.cartrgt{width:656px;}
+	.process ul li{width:238px;}
+	
+	.deallistpg{float:none; width:auto;}
+	
+	}
+	
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {	
+	
+	.block{ width:760px;}
+	.hacreglgn a{font-size:12px; margin:0 3px 0 0;}
+	.hdrsocial{margin:2px 0 0 0;}
+	.logo{float:none; margin:0 auto;}
+	.logorgt{float:none; margin:0 auto;}
+	.tdtbx{margin:0 10px 0 0;}
+	.tdtbx1{float:none; width:auto;}
+	#slider3 .viewport{width:740px;}
+	.dealofdy{top:0px;}
+	.ftrbx{margin:0 34px 25px 60px;}
+	.copyrgtlft{margin:0 0 0 23px;}
+	.copyrgtrgt{width:160px;}
+	
+	#slider4 .viewport{width:760px;}
+	#slider4 .overview li{margin:0 12px 0 0; width:245px; height:163px;}
+	
+	#slider5 .viewport{width:760px;}
+	#slider5 .overview li{width:240px;}
+	.login{margin:20px 0 0 20px;}
+	.login table tr td input[type="text"]{width:318px;}
+	.login table tr td input[type="password"]{width:318px;}
+	.pageheading h2{text-align:center;}
+	
+	#product ul li{margin:40px 44px;}
+	
+	.aboutblk{margin:0 7px; width:239px;}
+	
+	.testibx{width:auto;}
+	.testitxt{width:88%;}
+	
+	.prorgt{width:auto; float:none;}
+	.prolft{width:auto; float:none;}
+	
+	.cartlft{width:auto; float:none;}
+	.cartrgt{width:auto; float:none;}
+	
+	.process ul li{width:185px;}
+	
+	.frsttime{float:none; width:auto;}
+	.havecoupn{text-align:center;}
+	
+	.billship{float:none; width:auto;}
+	.billshiprgt{float:none; width:auto;}
+	
+	.contactlft{float:none; width:auto;}
+	.contactrgt{float:none; width:auto;}
+	
+	.deallistpg{float:none; width:auto;}
+
+	
+}
+
+    @media only screen and (min-width: 640px) and (max-width: 767px) {
+	.block{width:635px;}
+	.call{float:none; text-align:center;}
+	.rgtheader{float:none; margin:10px 0 0 0;}
+	.logorgt{width:auto; float:none; margin:10px 0;}
+	.srchmenu{float:none;}
+	.cart{float:none; margin:0 auto;}
+	
+	.flexslider{overflow:visible;}
+	.dealofdy{left:0; top:285px; width:auto;}
+	.free{background:url(../images/free.png) no-repeat right 7% center; margin:345px 0 0 0;}
+	.free p{font-size:16px;}	
+	.copyrgtlft{width:380px;}
+	
+	
+	
+	.tdtbx{float:none; margin:0; width:auto; padding:15px;}
+	.topratedrgt{width:510px;}
+	
+	.tdtbx1{float:none; width:auto;}
+	
+	#slider3 .viewport{width:635px; margin:25px 0;}
+	#slider3 .overview li{width:307px;}
+	.testimonialrgt{width:210px;}
+	
+	.ftrbx{width:222px; margin:0 12px 0 55px;}
+	.copyrgtlft{width:295px;}
+	.copyrgtrgt{width:auto;}
+	
+	#slider4 .viewport{width:635px;}
+	#slider4 .overview li{margin:0 103px 0 0;}
+	
+	#slider5 .viewport{width:635px;}
+	#slider5 .overview li{margin:0 50px 0 0;}
+	
+	.login{float:none; width:100%;}
+	.login table tr td input[type="text"]{width:435px;}
+	.login table tr td input[type="password"]{width:435px;}
+	
+	.loginwith{float:none; width:100%;}
+	
+	#product ul li{margin:40px 13px;}
+	
+	.prorgt{width:auto; float:none;}
+	.prolft{width:auto; float:none;}
+	
+	.cartlft{width:auto; float:none;}
+	.cartrgt{width:auto; float:none;}	
+	
+	.process ul li{margin:17px 0; float:none;}
+	.frsttime{float:none; width:auto;}
+	.havecoupn{text-align:center;}
+	
+	.deallistpg{float:none; width:auto;}
+	
+	}
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 639px) {
+
+	
+	.block{ width:460px; }
+	.call{float:none; text-align:center;}
+	.rgtheader{float:none; margin:10px 0 0 0;}
+	.hdrsocial{margin:2px 0 0 0;}
+	.hacreglgn a{font-size:12px;}
+	.logo{float:none; margin:0 auto;}
+	.logorgt{width:auto; float:none; margin:10px 0;}
+	.srchmenu{float:none;}
+	.cart{float:none; margin:0 auto;}
+	
+	.free{background:url(../images/free.png) no-repeat right 7% center; margin:345px 0 0 0;}
+	.free p{width:280px; font-size:16px;}
+
+	.flexslider{overflow:visible;}
+	.dealofdy{left:0; top:220px; width:auto;}
+	
+	.tdtbx{float:none; margin:0; width:auto; padding:15px;}
+	.tdtbx1{margin:0 auto; width:auto;}
+	
+	#slider3 .viewport{width:458px;}
+	#slider3 .overview li{width:458px;}
+	.testimonialrgt{width:345px;}
+	
+	#flexiselDemo1 li{width:280px !important; margin:0 0 0 0px;}
+	
+	
+	.topratedrgt{width:350px;}
+	.ftrbx{width:220px; margin:0 9px 0 0;}
+	.copyrgtlft{width:295px;}
+	.copyrgtrgt{width:auto;}
+	
+	#slider4 .viewport{width:460px;}
+	#slider4 .overview li{margin:0 10px 0 0; width:225px; height:150px;}
+
+	#slider5 .viewport{width:460px;}
+	#slider5 .overview li{width:230px; margin:0 10px 0 0;}
+	
+	.login{float:none; width:100%;}
+	.login table tr td input[type="text"]{width:435px;}
+	.login table tr td input[type="password"]{width:435px;}
+	
+	.loginwith{float:none; width:100%;}
+	.pageheading h2{text-align:center;}
+	
+	
+	#product ul li{margin:40px 85px;}
+	
+	.aboutblk{margin:0 68px;}
+	
+	.testibx{width:auto;}
+	.testitxt{width:80%;}	
+	
+	.prolft{width:456px;}
+	.prorgt{width:auto; float:none;}
+	.prolft{width:auto; float:none;}
+	
+	.cartlft{width:auto; float:none;}
+	.cartrgt{width:auto; float:none;}
+	
+	
+	.cartrgt table tr td{padding:4px;}
+	.crtproductimg a img{width:90px; height:90px;}
+	
+	.process ul li{margin:17px 0; float:none;}
+	.frsttime{float:none; width:auto;}
+	.havecoupn{text-align:center;}
+	
+	.process ul li{margin:17px 0; float:none;}
+	.frsttime{float:none; width:auto;}
+	.havecoupn{text-align:center;}
+	
+	.billship{float:none; width:auto;}
+	.billshiprgt{float:none; width:auto;}
+	.billship select{width:456px;}
+	.billship table tr td input[type="text"]{width:440px;}
+	.billship table tr td textarea{width:440px;}
+	.ordernote textarea{width:440px;}
+	
+	.cartdrpdwn{right:-57px;}
+	
+	.contactlft{float:none; width:auto;}
+	.contactrgt{float:none; width:auto;}
+	
+	.deallistpg table,
+	.deallistpg thead,
+	.deallistpg tbody,
+	.deallistpg tr,
+	.deallistpg th,
+	.deallistpg td {display:block; text-align:center;}
+	.deallistpg{float:none; width:auto;}
+	
+	}
+    @media only screen and (max-width: 479px) {
+	
+	.block{ width:300px;}
+	.call{font-size:9px;}
+	.hdrsocial{margin:10px 0 0 0; float:none; text-align:center;}
+	.hacreglgn a{font-size:11px;margin: 0 6px 0 0;}
+	.logo{float:none; margin:0 auto;}
+	.logorgt{width:auto; float:none; margin:10px 0;}
+	.srchmenu{float:none; width:auto;}
+	.tpsearch input[type="text"]{width:285px; margin:0; float:none;}
+	.cart{float:none; margin:0 auto;}
+	.free{background:url(../images/free320.png) repeat-x center; margin:520px 0 0 0;}
+	.dealofdy h1{font-size:34px;}
+	.tdtbx{float:none; margin:0; width:305px;}
+	.topratedrgt{width:222px;}
+	.dealrgt{float:none;}
+	
+	.tdtbx1{float:none; width:305px; margin:0;}
+	#slider3 .viewport{width:305px;}
+	#slider3 .overview li{width:305px;}
+	.testimonialrgt{width:205px;}
+	.flexslider{overflow:visible;}
+	.dealofdy{left:0; top:165px; width:auto;}
+	.dealofdybxlft{float:none; width:auto; text-align:center; height:185px;}
+	.dealofdybxrgt{float:none; width:auto; text-align:center;}
+	
+	.ftrbx{background:none;}
+	
+	.copyrgtlft{float:none; width:auto;}
+	.copyrgtrgt{float:none; width:auto;}
+	
+	#slider4 .viewport{width:310px;}
+	#slider4 .overview li{margin:0 25px;}
+	#slider5 .viewport{width:310px;}
+
+	#slider5 .overview li a{display:block;}
+	
+	.login{float:none; width:100%;}
+	.login table tr td input[type="text"]{width:278px;}
+	.login table tr td input[type="password"]{width:278px;}
+	
+	.loginwith{float:none; width:100%;}
+	.pageheading h2{text-align:center;}
+	
+	.aboutblk{margin:0; width:300px;}
+	
+	.testibx{width:auto;}
+	.testitxt{width:100%;}
+	
+	.prorgt{width:auto; float:none;}
+	.prolft{width:auto; float:none;}
+	
+	.cartlft{width:auto; float:none;}
+	.cartrgt{width:auto; float:none;}
+	
+	.cartrgt table,
+	.cartrgt thead,
+	.cartrgt tbody,
+	.cartrgt tr,
+	.cartrgt th,
+	.cartrgt td {display:block;}
+
+	
+	.cartrgt thead tr{position: absolute; top: -9999px;	left: -9999px;}
+	.cartrgt td{ border: none;	border-bottom: 1px solid #eee; position: relative; padding-left: 50%; white-space: normal; text-align:left;}
+		
+	.cartrgt td:before{position: absolute; top: 6px; left: 6px;	width: 45%;	white-space: nowrap; 
+	  color:#000; padding:7px; font-weight:normal; font-size:14px; text-align:left;}
+		
+	.cartrgt td:before { content: attr(data-title);	}
+	.cartrgt table tr td{padding-left: 50%;}
+	.crtproductimg a img{width:99px; height:99px;}
+	
+	.process ul li{margin:17px 0; float:none;}
+	.frsttime{float:none; width:auto;}
+	.havecoupn{text-align:center;}
+	
+	.billship{float:none; width:auto;}
+	.billshiprgt{float:none; width:auto;}
+	.billship select{width:300px;}
+	.billship table tr td input[type="text"]{width:285px;}
+	.billship table tr td textarea{width:285px;}
+	.ordernote textarea{width:285px;}
+	
+	.cartdrpdwn{right:-57px;}
+	
+	.contactlft{float:none; width:auto;}
+	.contactrgt{float:none; width:auto;}
+	
+	.deallistpg table,
+	.deallistpg thead,
+	.deallistpg tbody,
+	.deallistpg tr,
+	.deallistpg th,
+	.deallistpg td {display:block; text-align:center;}
+	.deallistpg{float:none; width:auto;}
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	

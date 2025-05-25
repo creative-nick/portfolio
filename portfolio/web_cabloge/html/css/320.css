@@ -1,0 +1,196 @@
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 479px) {
+
+/*-------------------headerandfooteropen-------------*/
+.block{ width:278px;}
+.menu {height:auto; background:none; margin-top:22px;}
+.menu ul li {float:none; }
+
+.menu ul li a { text-align:center;  background:#FFEA00; border:6px solid #000; border-radius:14px;}
+
+.menu ul {padding:22px 0px;}
+.bannerad img{ width:80%; }
+.boxbottom img{ width:95%;}
+.bannerad { text-align:right;}
+.midbox{ float:none; margin: 0 auto; width:200px;}
+.adsectoin img{ width:93%;}
+.topfoot a{ margin:0px 0px; font-size:9px;}
+.boxbottom span span  img{ width:35%;}
+.toptitle span h2 { font-size:16px;}
+.toptitle p{ font-size:7px;}
+.copy{font-size: 9px; padding-left: 0;}
+.copy span { margin-right: 43px;}
+.fotlogo { bottom: -30px;}
+
+/*-------------------advertwithusopen-------------*/
+.cab-bt { margin-left:0px;}
+.repairs{ text-align:center;}
+.cab-bt img{ width:80%;}
+
+/*-------------------contentopen-------------*/
+
+.heading-bg{ background:url(../images/heading-bg.png) no-repeat center; width: auto; }
+
+
+/*-------------------detailsopen-------------*/
+
+.shift ul li a{width: 137px; font-size: 16px;}
+.tablebg td {font-size:8px;}
+.details-left { width:auto;}
+.details-right{ width:64%; float:none; margin:0 auto;}
+.details-right img{ width:81%; margin-left:0px;}
+.btn{ margin:5px;}
+
+/*-------------------inner24open-------------*/
+.con_bg{ display:none;}
+
+.display { display:block; margin-top:5px;}
+
+.inner24-left { background:none; padding-bottom:0px; padding-top:0px; width:240px;}
+.inner24-left a img{ width:98%;}
+
+.inner24-right{  margin-top: 33px; width:240px;}
+.inner24-right a img{ width:98%;}
+
+/*-------------------inner26open-------------*/
+
+.enter-detail input { width:144px;}
+.enter-detail td { font-size:12px;}
+.inner33left { border:none; float:none; margin:0 auto; padding-right: 0px;}
+.inner-button33 { float:none; margin:10px 5px;}
+
+
+/*-------------------inner34open-------------*/
+.inner34-heading { font-size: 10px;  padding-left: 0px;}
+
+.newmargin { margin: 15px 0 0 12px !important; }
+
+.inner35 { margin-top: 22px; font-size: 28px;}
+
+/*-------------------inner42open-------------*/
+
+.temprary-arrow {background:none; height:auto;}
+.temperary_shift { margin-left:0px; width:auto;}
+
+
+
+
+
+.select { padding: 7px 0px 0 0px; !important; text-align:left!important; width: 208px !important;}
+select.styled {width: 241px !important;}
+.tem_go { margin-left: 77px; margin-top: 0px;}
+
+.innernew_button{ width: 220px;}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+
+.select { left:20px;}
+
+}
+
+
+/*-------------------place_ad_1.html-------------*/
+
+.placeanew_add01 a { background:url(../images/lock_bg-2.png) no-repeat; height: 94px; }
+.placeanew_add012 a  { background:url(../images/lock_black-2.png) no-repeat; height: 94px;}
+.placeanew_add01 h2, .placeanew_add012 h2 { font-size: 21px; margin: 0 0 0 20px; text-align: left; padding-top: 17px;}
+.placeanew_add01 h1, .placeanew_add012 h1 {font-size: 28px; margin: 0 0 0 20px; text-align: left; padding-top: 0px;}
+
+
+.tx-center { font-size: 20px;}
+
+.placeanew_add01 { float: none; margin: 0 auto; width:243px;}
+.add_spacearrow { float: none; margin: 0 auto; }
+.placeanew_add012 { float: none; margin: 0 auto; width:243px;}
+
+/*-------------------place_ad_2-------------*/
+.placeanew_add022 {float: none; margin: 0 auto;  width:243px;}
+.placeanew_add0221 {float: none; margin: 0 auto;  width:243px;}
+.placeanew_add022 h1, .placeanew_add0221 h1 {margin: 10px 84px 0 0; font-size:22px; padding-top: 30px;}
+
+.placeanew_add022 a {background:url(../images/yellow_addspace022.png) no-repeat; height:99px;}
+.placeanew_add0221 a {background:url(../images/black_addspace022.png) no-repeat; height:99px;}
+
+/*-------------------place_ad_3-------------*/
+
+.placeanew_add04 {float: none; margin: 0 auto; width:243px;}
+.placeanew_add042 {float: none; margin: 0 auto; width:243px; }
+
+.placeanew_add04 a {background:url(../images/yellow_addspace-001.png) no-repeat; height:99px;}
+.placeanew_add042 a {background:url(../images/black_addspace-001.png) no-repeat; height:99px;}
+
+.placeanew_add04 h2, .placeanew_add042 h2 { font-size: 18px; padding-top: 17px; text-align: left; margin:0 0 0 33px;}
+.placeanew_add04 h1, .placeanew_add042 h1 { font-size: 26px; margin-right: 119px;}
+
+/*-------------------place_ad_5-------------*/
+
+.showfield_addplace_bor {  margin-bottom: 15px; text-align: left; width: 96%;}
+.placead_5_right {width: 198px;}
+.showfield_addplace {font-size: 10px;}
+
+
+/*-------------------place_ad_detail-------------*/
+.place-display{ display:block; margin-top:0px;}
+.enter-detail-display { display:none !important;}
+.form_con_field_left input { width: 231px;}
+.form_con_field_left label { text-align: left;}
+.form_conD1 { width: 243px; }
+
+/*-------------------place_ad_detail2-------------*/
+
+.dts-2{ display:none;}
+.detail-02{ text-align:left;}
+.tablebg { background:url(../images/ab.png) repeat;}
+.day01{ height:0px; font-size:19px;}
+
+/*-------------------repair_maintenance-------------*/
+.autoshop-cont { padding: 10px; width: 201px; margin:0px;}
+.repairs-box1 {height:auto;}
+.autoshop-img{ margin-bottom: 15px;}
+.autoshop-img img{ margin-top: 5px;}
+.autoshop { padding: 20px 0 0; background:none; height: 40px;}
+.selectbg select{ margin: 10px 50px;}
+.sele01{ height:auto; background: url("../images/select-bg.png") repeat;}
+
+/*-------------------storeprofile-------------*/
+
+.carcare-left {width: 184px;}
+.carcare-right { margin:0px auto; float:none; width:240px; }
+.carcare-right img { margin:20px 0 0 0px; width: 90%;}
+
+/*-------------------news-------------*/
+.news_article { width: 100%;}
+.news_article_txt {width: 100%; float:none; text-align:left;}
+.news_right { float:none; margin:0 auto; width:239px;}
+.news_right img{ margin-top:15px; width:90%;}
+
+
+
+
+
+.perma{margin-top:20px; padding-top:20px; border-top:solid 4px #FFF158;}
+.per-display{display:block;}
+.per-display01 {display:none;}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+}

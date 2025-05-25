@@ -1,0 +1,39 @@
+.ui-wrapper {border:1px solid #50A029;}
+
+.ui-wrapper input, .ui-wrapper textarea {border:0;}
+
+ul.ui-accordion-container { 
+	margin:0; 
+	padding:0; 
+	list-style-type:none;}
+	
+ul.ui-accordion-container li { 
+	margin:0; 
+	margin-bottom:2px;  
+	padding:0;}
+	
+ul.ui-accordion-container li a.ui-accordion-link { 
+	display:block; 
+	padding:7px; 
+	margin-right:3px; 
+	text-transform:uppercase;
+	cursor:pointer;
+	background:#e3e3e3 url(../images/minus.png) no-repeat right; 
+	color:#000; 
+	text-decoration:none; font-size:14px;}
+	
+ul.ui-accordion-container li .ui-accordion-right { 
+	display:block; 
+	position:absolute; 
+	top:0px; background:#e3e3e3 url(../images/minus.png) no-repeat right; 
+	right:0px; 
+	height:28px; 
+	width:3px;}
+
+ul.ui-accordion-container li:hover {}
+ul.ui-accordion-container li:hover a.ui-accordion-link {}
+ul.ui-accordion-container li:hover .ui-accordion-right {}
+
+ul.ui-accordion-container li.active {}
+ul.ui-accordion-container li.active a.ui-accordion-link {background:#ccc url(../images/minus.png) no-repeat right;}
+ul.ui-accordion-container li.active .ui-accordion-right {background:#ccc url(../images/minus.png) no-repeat right;}

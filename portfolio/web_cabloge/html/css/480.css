@@ -1,0 +1,154 @@
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		
+/*-------------------headerandfooteropen-------------*/		
+		
+
+.block{ width:446px;}
+.bannerad img{ width:80%; }
+.bannerad { text-align:right;}
+.midbox{ float:none; margin: 0 auto;}
+.menu ul li {font-size: 18px;}
+.menu ul li a { padding: 10px 7px;}
+.menu ul {padding:22px 0;}
+.adsectoin img{ width:93%;}
+.topfoot a{ margin:0px 0px;}
+.boxbottom span span  img{ width:35%;}
+
+/*-------------------advertwithusopen-------------*/
+
+.cab-bt { margin-left:0px;}
+
+/*-------------------contentopen-------------*/
+
+.heading-bg{ background:url(../images/heading-bg.png) no-repeat center; width: auto; }
+
+/*-------------------detailsopen-------------*/
+
+.shift ul li a { width: 221px;}
+.tablebg td { font-size: 12px;}
+
+.details-left{ width: auto; float:none;}
+
+.details-right { float:none; margin: 10px auto; }
+
+
+/*-------------------inner24open-------------*/
+
+.day { font-size: 20px;}
+.yallow td { font-size:12px;}
+
+
+.inner24-left { background:none; width: 397px; padding-bottom:0px; padding-top:0px;}
+.inner24-right{ width:406px; margin-top: 33px;}
+
+
+/*-------------------inner33open-------------*/
+
+.repairs { padding:11px;}
+.inner-button33 { margin:5px;}
+
+.inner33right {width: 218px;} 
+
+.inner33left { margin-right: 5px; padding-right:0px; width: 190px;}
+
+/*-------------------inner34open-------------*/
+
+.newmargin { margin: 15px 0 0 108px !important; }
+
+.temperary_shift { margin-left: 0px; width: 274px;}
+
+/*-------------------inner42open-------------*/
+
+.select { padding: 7px 0px 0 0px; !important; text-align:left!important; width: 220px !important;}
+
+select.styled {width: 252px !important;}
+
+/*-------------------place_ad_1.html-------------*/
+
+.placeanew_add01 { float: none; margin: 0 auto;}
+.add_spacearrow { float: none; margin: 5px auto; }
+.placeanew_add012 { float: none; margin: 0 auto; }
+
+/*-------------------place_ad_2-------------*/
+.placeanew_add022 {float: none; margin: 0 auto; }
+.placeanew_add0221 {float: none; margin: 0 auto; }
+.placeanew_add022 h1, .placeanew_add0221 h1 {margin: 10px 111px 0 0;}
+
+/*-------------------place_ad_3-------------*/
+
+.placeanew_add04 {float: none; margin: 0 auto; }
+.placeanew_add042 {float: none; margin: 0 auto; }
+
+/*-------------------place_ad_5-------------*/
+
+.showfield_addplace_bor {  margin-bottom: 15px; text-align: left; width: 96%;}
+.placead_5_right {width: 380px;}
+
+/*-------------------place_ad_detail-------------*/
+.repairs h3 { text-align:left;}
+.place-display{ display:block;}
+.enter-detail-display { display:none !important;}
+.form_con_field_left input { width: 241px;}
+.form_con_field_left label {  margin-left: 15px; text-align: left; width: 127px;}
+
+/*-------------------place_ad_detail2-------------*/
+
+.detail-02{ text-align:left;}
+.detail-02 td{ width:46%; text-align:left;}
+.detail-02 input{ width: 193px; }
+
+.place-display{ display:block;}	
+.dts-2{ display:none;}
+.tablebg { background:url(../images/ab.png) repeat;}
+.day01{ height:0px;}
+
+
+/*-------------------repair_maintenance-------------*/
+.autoshop-cont {  width: 151px;}
+.repairs-box1 {height:auto;}
+.autoshop-img{ margin-bottom: 15px;}
+.autoshop {margin-top:34px;}
+.selectbg select{  margin: 10px 22px;}
+.sele01{ height:auto; background: url("../images/select-bg.png") repeat;}
+
+/*-------------------storeprofile-------------*/
+
+.carcare-left {width: 368px;}
+.carcare-right img { margin:20px 0 0 0px;}
+.carcare-right { margin:10px auto; float:none;  width: 296px;}
+
+/*-------------------news-------------*/
+
+.news_article { width: 100%;}
+.news_article_txt {width: 75%;}
+.news_right { float:none; margin:0 auto;}
+.news_right img{ margin-top:15px;}
+
+.perma{margin-top:20px; padding-top:20px; border-top:solid 4px #FFF158;}
+.per-display{display:block;}
+.per-display01 {display:none;}
+
+/*-------------------shfit-------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

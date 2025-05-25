@@ -1,0 +1,134 @@
+
+
+
+
+#navigation {
+	border:1px solid #EBEBEB;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+	background-color:#fff;
+	width:100%;}
+	
+#navigation a.head {
+	cursor:pointer;
+	border-bottom:1px solid #EBEBEB;
+	background:#F5F5F5 url(../images/plus.png) no-repeat scroll 99% 8px;
+	color:#000;
+	display:block;
+	font-weight:normal;
+	font-size:13px;
+	margin:0px;
+	padding:6px;
+	text-decoration: none; text-transform:uppercase;
+}
+#navigation a.head:hover {
+	color:#000;
+}
+#navigation a.selected {background: #F5F5F5 url(../images/minus.png) no-repeat scroll 99% 8px;
+}
+#navigation a.current {
+	background-color:#fff;
+}
+#navigation ul {
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+}
+#navigation li {
+	list-style:none outside none; display:inline;
+}
+#navigation li li a {
+	color:#000000; padding:5px 0;
+	display:block; border-bottom:1px solid #e3e3e3;
+	text-indent:10px;
+	font-size:13px;
+	text-decoration: none;
+}
+#navigation li li a:hover {
+	text-decoration:underline;
+}
+
+#wizard {
+	width:100%;
+	border: 1px solid black;
+}
+#wizard .title {
+	background-color:#DDDDDD;
+}
+
+
+@media print {
+	.basic div, #navigation ul, #list2 dd, #list3 div{
+		display: block!important;
+		height: auto!important
+	}
+}
+
+
+
+#navigation1 {
+	border:1px solid #EBEBEB;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+	background-color:#fff;
+	width:100%;}
+	
+#navigation1 a.head {
+	cursor:pointer;
+	border-bottom:1px solid #EBEBEB;
+	background:#fff url(collapsed.png) no-repeat scroll 99% 4px;
+	color:#000;
+	display:block;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	text-indent:14px;
+	text-decoration: none;
+}
+#navigation1 a.head:hover {
+	color:#000;
+}
+#navigation1 a.selected {
+	background-image: url(expanded.png);
+}
+#navigation1 a.current {
+	background-color:#fff;
+}
+#navigation1 ul {
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+}
+#navigation1 li {
+	list-style:none outside none; display:inline;
+}
+#navigation1 li li a {
+	color:#000000;
+	display:block;
+	text-indent:10px;
+	font-size:11px;
+	text-decoration: none;
+}
+#navigation1 li li a:hover {
+	text-decoration:underline;
+}
+
+#wizard {
+	width:100%;
+	border: 1px solid black;
+}
+#wizard .title {
+	background-color:#DDDDDD;
+}
+
+
+@media print {
+	.basic div, #navigation1 ul, #list2 dd, #list3 div{
+		display: block!important;
+		height: auto!important
+	}
+}

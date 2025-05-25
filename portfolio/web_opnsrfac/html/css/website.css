@@ -1,0 +1,57 @@
+/* Tiny Carousel */
+#slider3 { height: 1%; padding: 0 0 10px;   }
+#slider3 .viewport { float: left; width: 360px; height: 210px; overflow: hidden; position: relative; margin:25px 0 0 0;}
+#slider3 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: -35px 22px 0 0; 
+background-position: 0 -20px; text-indent: -999em; float: right; width: 22px; height: 19px; overflow: hidden; position: relative; }
+#slider3 .next { background-position: 0 0; margin: -35px 0 0 10px;  }
+#slider3 .disable { visibility: hidden; }
+#slider3 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0 top: 0; }
+#slider3 .overview li{ float: left; margin: 0 20px 0 0; padding: 0px; height: 210px; width: 360px;}
+
+#slider3 .pager { overflow:hidden; list-style: none; clear: both; margin: 0 0 0 45px; }
+#slider3 .pager li { float: left; }
+#slider3 .pagenum { background-color: #fff; text-decoration: none; text-align: center; padding: 5px; color: #555555; font-size: 14px; font-weight: bold; display: block; }
+#slider3 .active { color: #fff; background-color:  #555555; }
+
+
+#slider4 { height: 1%; padding: 0 0 10px;   }
+#slider4 .viewport { float: left; width: 1200px; height: 175px; overflow: hidden; position: relative; margin:25px 0 0 0;}
+#slider4 .buttons { background:url(../images/btn.png) no-repeat scroll 0 0 transparent; display: block; margin: -34px 19px 0 0; 
+background-position: 0 -20px; text-indent: -999em; float: right; width: 22px; height: 19px; overflow: hidden; position: relative; }
+#slider4 .next { background-position: 0 0; margin: -34px 0 0 10px;  }
+#slider4 .disable { visibility: hidden; }
+#slider4 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0 top: 0; }
+#slider4 .overview li{ float: left; margin: 0 50px 0 0; padding: 0px; height: 175px; width: 263px; position:relative;}
+#slider4 .overview li a img{width:100%;}
+
+#slider4 .pager { overflow:hidden; list-style: none; clear: both; margin: 0 0 0 45px; }
+#slider4 .pager li { float: left; }
+#slider4 .pagenum { background-color: #fff; text-decoration: none; text-align: center; padding: 5px; color: #555555; font-size: 14px; font-weight: bold; display: block; }
+#slider4 .active { color: #fff; background-color:  #555555; }
+#dtaa_cone { background:url(../images/bgpro.png) repeat; position:absolute; padding:6px 0; width:100%; left:0; bottom:0px;}
+#dtaa_cone h1 { color:#FFF; font-size:18px; text-align:center; text-transform:uppercase; font-weight:normal;}
+
+
+
+
+
+
+#slider5 { height: 1%; padding: 0 0 10px;   }
+#slider5 .viewport { float: left; width: 1200px; height: 315px; overflow: hidden; position: relative; margin:25px 0 0 0;}
+#slider5 .buttons { background:url(../images/btn.png) no-repeat scroll 0 0 transparent; display: block; margin: -34px 19px 0 0; 
+background-position: 0 -20px; text-indent: -999em; float: right; width: 22px; height: 19px; overflow: hidden; position: relative; }
+#slider5 .next { background-position: 0 0; margin: -34px 0 0 10px;  }
+#slider5 .disable { visibility: hidden; }
+#slider5 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0 top: 0; }
+#slider5 .overview li{ float: left; margin: 0 13px 0 0; padding: 0px; height: 315px; width: 290px; position:relative;}
+#slider5 .overview li a{background:#f5f5f5; display:block; vertical-align:middle; width:100%; height:240px; text-align:center;}
+#slider5 .overview li a img{width:80%;}
+#slider5 .pager { overflow:hidden; list-style: none; clear: both; margin: 0 0 0 45px; }
+#slider5 .pager li { float: left; }
+#slider5 .pagenum { background-color: #fff; text-decoration: none; text-align: center; padding: 5px; color: #555555; font-size: 14px; font-weight: bold; display: block; }
+#slider5 .active { color: #fff; background-color:  #555555; }
+
+.fpname{ position:absolute; bottom:0; left:0; width:100%;}
+.fpname p{font-size:11px; font-weight:bold; text-transform:uppercase; text-align:left;margin:10px 0; border-bottom:3px solid #f5f5f5;
+ padding:10px 0;}
+

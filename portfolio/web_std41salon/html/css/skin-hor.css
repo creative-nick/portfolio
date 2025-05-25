@@ -1,0 +1,258 @@
+
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 990px;
+	
+	padding-top:0px;
+   /* padding: 20px 40px;*/
+}
+
+
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 918px;
+    height:76px!important;
+	margin-left:32px;
+	float:left;
+	margin-top:18px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+   width:141px!important;
+    height:76px!important;
+	border-radius:3px;
+	margin-left:11px!important;
+
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left:0px;
+    margin-right:0px;
+	margin-top:0px;
+	width:141px!important;
+	float:left;
+}
+
+#mycarousel:hover .imgh{ background-color:#F00}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 0px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #000;
+    color: #000;width:342px!important;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+	top: 18px;
+    right: 0px;
+    width: 31px;
+    height: 76px;
+    cursor: pointer;
+    background: url(../images/left.png) no-repeat right;
+	margin-top:0px \0/;
+	z-index:10000!important;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(../images/left.png);
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    background: url(../images/left.png) no-repeat right;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background: url(../images/left.png) no-repeat right;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+     background: url(../images/left.png) no-repeat right;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 18px;
+    left:0px;
+    width: 31px;
+    height: 76px;
+    cursor: pointer;
+    background: url(../images/right.png) no-repeat left;
+	margin-top:0px \0/;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background: url(../images/right.png) no-repeat left;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    background: url(../images/right.png) no-repeat left;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background: url(../images/right.png) no-repeat left;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background: url(../images/right.png) no-repeat left;
+}
+
+
+
+
+
+
+
+
+
+
+
+.jcarousel-skin-tango1 .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango1 .jcarousel-container-horizontal {
+    width: 600px;
+	
+	padding-top:0px;
+   /* padding: 20px 40px;*/
+}
+
+
+
+.jcarousel-skin-tango1 .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango1 .jcarousel-clip-horizontal {
+    width: 540px;
+    height:60px!important;
+	margin-left:41px;
+	float:left;
+	margin-top:8px;
+	
+}
+
+
+.jcarousel-skin-tango1 .jcarousel-item {
+   width:625px!important;
+    height:60px!important;
+}
+
+.jcarousel-skin-tango1 .jcarousel-item-horizontal {
+	margin-left:0px;
+    margin-right:0px;
+	margin-top:0px;
+	width:60px!important;
+	float:left;
+}
+
+.jcarousel-skin-tango1 .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 0px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango1 .jcarousel-item-placeholder {
+    background: #000;
+    color: #000;width:625px!important;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango1 .jcarousel-next-horizontal {
+    position: absolute;
+    top: 23px;
+    right: -5px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background: url(../images/left-btn.png) no-repeat right;
+	margin-top:0px \0/;
+	z-index:10000!important;
+}
+
+.jcarousel-skin-tango1 .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(../images/left-btn.png);
+}
+
+.jcarousel-skin-tango1 .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango1 .jcarousel-next-horizontal:focus {
+    background: url(../images/left-btn.png) no-repeat right;
+}
+
+.jcarousel-skin-tango1 .jcarousel-next-horizontal:active {
+    background: url(../images/left-btn.png) no-repeat right;
+}
+
+.jcarousel-skin-tango1 .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango1 .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango1 .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango1 .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+     background: url(../images/left-btn.png) no-repeat right;
+}
+
+.jcarousel-skin-tango1 .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 23px;
+	left:10px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background: url(../images/right-btn.png) no-repeat left;
+	margin-top:0px \0/;
+}
+
+.jcarousel-skin-tango1 .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background: url(../images/right-btn.png) no-repeat left;
+}
+
+.jcarousel-skin-tango1 .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango1 .jcarousel-prev-horizontal:focus {
+    background: url(../images/right-btn.png) no-repeat left;
+}
+
+.jcarousel-skin-tango1 .jcarousel-prev-horizontal:active {
+    background: url(../images/right-btn.png) no-repeat left;
+}
+
+.jcarousel-skin-tango1 .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango1 .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango1 .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango1 .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background: url(../images/right-btn.png) no-repeat left;
+}

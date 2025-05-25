@@ -1,0 +1,178 @@
+
+
+/* COUNTDOWN - Inspiration http://fff.cmiscm.com/#!/section/flipclock */
+/* ----------------------------------------------------------------------------------------- */
+.countdown {
+    display: table-cell;
+    font-weight: normal;
+}
+.countdown .item {
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    font-family: 'Open Sans', cursive;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 180px;
+    text-align: center;
+    color: #B7B7B7;
+    border-radius: 10px;
+    margin: 50px 10px 50px 0;
+    padding: 0 10px;
+    background: #2A2A2A;
+    background: -webkit-linear-gradient(#2A2A2A, #000);
+    background: linear-gradient(#2A2A2A, #000);
+    overflow: hidden;
+}
+.countdown .item-ss {
+    font-size: 50px;
+    line-height: 70px;
+}
+.countdown .item:after {
+    content: '';
+    display: block;
+    height: 1px;
+    border-top: 3px solid #111;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.countdown .label {
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    font-family: 'Open Sans', cursive;
+    font-weight: 700;
+    line-height: normal;
+    right: 6px;
+    bottom: 4px;
+    font-size: 14px;
+    color: #B9B9B9;
+}
+.countdown .item-hh .label,
+.countdown .item-mm .label,
+.countdown .item-ss .label {
+    display: none;
+}
+
+/* COUNTDOWN-ALT-1 */
+/* ----------------------------------------------------------------------------------------- */
+.countdown-alt-1 {
+    display: block;
+    font-size: 0;  /* Hack for inline and inline-block extra markup generated spaces */
+    margin:0;
+    color: #000; 
+}
+.countdown-alt-1 .item {
+    position: relative;
+}
+.countdown-alt-1 .dd,
+.countdown-alt-1 .hh-1,
+.countdown-alt-1 .hh-2,
+.countdown-alt-1 .mm-1,
+.countdown-alt-1 .mm-2,
+.countdown-alt-1 .ss-1,
+.countdown-alt-1 .ss-2 {
+    
+    background: rgb(76,76,76); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjNGM0YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEyJSIgc3RvcC1jb2xvcj0iIzU5NTk1OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM5JSIgc3RvcC1jb2xvcj0iIzQ3NDc0NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUyJSIgc3RvcC1jb2xvcj0iIzJjMmMyYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iIzExMTExMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkxJSIgc3RvcC1jb2xvcj0iIzFjMWMxYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iIzJiMmIyYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMzEzMTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgb(76,76,76) 0%, rgb(89,89,89) 12%, rgb(71,71,71) 39%, rgb(44,44,44) 52%, rgb(0,0,0) 53%, rgb(17,17,17) 60%, rgb(28,28,28) 91%, rgb(43,43,43) 99%, rgb(19,19,19) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(76,76,76)), color-stop(12%,rgb(89,89,89)), color-stop(39%,rgb(71,71,71)), color-stop(52%,rgb(44,44,44)), color-stop(53%,rgb(0,0,0)), color-stop(60%,rgb(17,17,17)), color-stop(91%,rgb(28,28,28)), color-stop(99%,rgb(43,43,43)), color-stop(100%,rgb(19,19,19))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(76,76,76) 0%,rgb(89,89,89) 12%,rgb(71,71,71) 39%,rgb(44,44,44) 52%,rgb(0,0,0) 53%,rgb(17,17,17) 60%,rgb(28,28,28) 91%,rgb(43,43,43) 99%,rgb(19,19,19) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(76,76,76) 0%,rgb(89,89,89) 12%,rgb(71,71,71) 39%,rgb(44,44,44) 52%,rgb(0,0,0) 53%,rgb(17,17,17) 60%,rgb(28,28,28) 91%,rgb(43,43,43) 99%,rgb(19,19,19) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(76,76,76) 0%,rgb(89,89,89) 12%,rgb(71,71,71) 39%,rgb(44,44,44) 52%,rgb(0,0,0) 53%,rgb(17,17,17) 60%,rgb(28,28,28) 91%,rgb(43,43,43) 99%,rgb(19,19,19) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgb(76,76,76) 0%,rgb(89,89,89) 12%,rgb(71,71,71) 39%,rgb(44,44,44) 52%,rgb(0,0,0) 53%,rgb(17,17,17) 60%,rgb(28,28,28) 91%,rgb(43,43,43) 99%,rgb(19,19,19) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-8 */
+
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    margin: 1px 2px;
+    min-width: 25px;
+	color:#FFF;
+    padding: 8px 0;
+    text-align: center;
+}
+.countdown-alt-1 .hh-1,
+.countdown-alt-1 .hh-2,
+.countdown-alt-1 .mm-1,
+.countdown-alt-1 .mm-2,
+.countdown-alt-1 .ss-1,
+.countdown-alt-1 .ss-2 {
+    width: 40px;
+    max-width: 25px;
+}
+
+.countdown-alt-1 .label {
+
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 10px;
+	font-weight:normal;
+	color:#333;
+    padding: 2px 5px;
+    position: absolute;
+    left: 0;
+    bottom: -32px;
+}
+.countdown-alt-1 .label {
+
+}
+.countdown-alt-1 .separator-dd,
+.countdown-alt-1 .separator {
+    color: #333;
+    font-size: 26px;
+    position: relative;
+}
+
+/* COUNTDOWN-ALT-2 - Inspiration http://goo.gl/hRfsc */
+/* ----------------------------------------------------------------------------------------- */
+.countdown-alt-2 {
+    font-size: 0;  /* Hack for inline and inline-block extra markup generated spaces */
+    display: block;
+    overflow: auto;
+    padding: 20px 0;
+    margin: 50px 0;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    color: #333;
+    -webkit-transform: skew(-2deg, -2deg);
+    transform: skew(-2deg, -2deg);
+}
+.countdown-alt-2 .item {
+    display: block;
+    float: left;
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 36px 20px 10px 20px;
+    margin: 0 10px;
+    min-width: 100px;
+    max-width: 100px;
+    text-align: center;
+    background: #FFF;
+    border: 2px solid #FFF;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.countdown-alt-2 .dd,
+.countdown-alt-2 .hh-1,
+.countdown-alt-2 .hh-2,
+.countdown-alt-2 .mm-1,
+.countdown-alt-2 .mm-2,
+.countdown-alt-2 .ss-1,
+.countdown-alt-2 .ss-2 {
+    font: italic;
+    text-shadow: 1px 1px 10px #FFF, 1px 1px 3px #333;
+}
+.countdown-alt-2 .label {
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    width: 120px;
+    padding: 5px 10px;
+    background: #0B81BC;
+    color: #FFF;
+}

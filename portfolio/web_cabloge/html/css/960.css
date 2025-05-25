@@ -1,0 +1,108 @@
+
+/* #Base 960 Grid
+================================================== */
+
+    /* Note: Design for a width of 960px */
+
+    @media only screen and (min-width: 960px) and (max-width: 1199px) {
+		
+		
+/*-------------------headerandfooteropen-------------*/
+.block{ width:960px; }
+.midbox{ width:310px;}
+.boxbottom span span  img{ left:33%;}
+.menu ul { padding:22px 0px;}
+
+/*-------------------advertwithusopen-------------*/
+
+
+/*-------------------contentopen-------------*/
+
+
+
+.heading-bg{ background:url(../images/heading-bg.png) no-repeat center; width: auto; }
+
+
+/*-------------------detailsopen-------------*/
+
+
+
+.shift ul li a { width: 478px;}
+
+.details-left {width: 55%;}
+
+/*-------------------inner24open-------------*/
+
+.inner24-left { width: 48%;}
+.inner24-right{width: 48%;}
+
+/*-------------------inner33open-------------*/
+
+.inner33right {width: 699px;}
+.inner33left { margin-right: 18px; padding-right:0px;}
+.inner-button33  { margin: 5px;}
+
+/*-------------------inner34open-------------*/
+
+.newmargin {  margin: 42px 17px 20px 55px !important;}
+
+/*-------------------inner42open-------------*/
+
+.select { padding: 7px 0px 0 0px; !important; text-align:left!important; width: 220px !important;}
+
+select.styled {width: 252px !important;}
+
+
+/*-------------------place_ad_1-------------*/
+
+.placeanew_add012 { float: right;}
+.add_spacearrow {  width: 0px;}
+
+/*-------------------place_ad_2-------------*/
+
+.placeanew_add0221 {  float: right;}
+
+/*-------------------place_ad_3-------------*/
+
+.placeanew_add042 {float: right;}
+
+/*-------------------place_ad_5-------------*/
+
+.showfield_addplace_bor { text-align: left; width: 547px;}
+
+/*-------------------place_ad_detail-------------*/
+
+.repairs h3 { text-align:left;}
+
+.detail-02{ text-align:left;}
+
+/*-------------------repair_maintenance-------------*/
+
+
+.autoshop-cont {width: 29%;}
+
+/*-------------------storeprofile-------------*/
+
+.carcare-left { width:524px; }
+
+
+/*-------------------news-------------*/
+
+.news_article { width:605px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
